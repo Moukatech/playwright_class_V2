@@ -29,7 +29,7 @@ test('Register new user', async ({ page }) => {
 
     dataStore.set('email', customerInfo.email);
     dataStore.set('password', customerInfo.password);
-
+// We must validate the response body
     await expect(page).toHaveTitle(' Your Account Has Been Created!');
 
 
