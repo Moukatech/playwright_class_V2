@@ -1,0 +1,27 @@
+[
+    {
+        "username": "admin",
+        "password": "password123",
+        "expected": "welcome, admin!"
+    },
+    {
+        "username": "testuser1",
+        "password": "Password456",
+        "expected": "welcome, testuser1!"
+    },
+    {
+        "username": "testuser2",
+        "password": "Password456",
+        "expected": "welcome, testuser2!"
+    },
+    {
+        "username": "testuser3",
+        "password": "Password456",
+        "expected": "welcome, testuser3!"
+    },
+    {
+        "username": "testuser4",
+        "password": "Password456",
+        "expected": "welcome, testuser4!"
+    }
+]
